@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(227, 227, 218);
+}
+
+footer {
+  background-color: rgb(213, 213, 191);
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  height: 400px;
+  width: 400px;
+}
