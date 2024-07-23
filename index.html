@@ -3,18 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Luis Rojas</title>
+    <title>Mi CV</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
-      <img src="./perfil.png" alt="fotografia de luis Rojas" />
+      <img
+        src="./perfil.png"
+        alt="fotografia de Luis Rojas"
+        class="image-profile"
+      />
       <h1>Luis Rojas</h1>
     </header>
     <main>
       <div>
         <h2>Un poco de mi</h2>
-        <p>
+        <p class="profile-description">
           Originario de Guadalajara Jalisco, Mexico. Fisioterapeuta con
           formación en cuidados hospitalarios y pacientes geriátricos.
         </p>
@@ -28,20 +32,20 @@
         <h2>Formación</h2>
         <ul>
           <li>Licenciatura en Terapia Física y Rehabilitación 2015-2018 UAG</li>
-          <li>Diplimado en Rehabilitación Intrahospitalaria 2023</li>
-          <li>Certificación en Osteopatia Deportiva 2022</li>
+          <li>Diplomado en Rehabilitación Intrahospitalaria 2023</li>
+          <li>Certificación en Osteopatía Deportiva 2022</li>
           <li>Certificación en Rehabilitación Deglutoria 2023</li>
-          <li>Certificacion ILSC English A2+</li>
+          <li>Certificación ILSC English A2+</li>
           <li>Basic Life Support (CPR and AED) 2022-2024</li>
-          <li>Certificacion Terapia Neural Musculoesqueletica 2022</li>
+          <li>Certificación Terapia Neural Musculoesquelética 2022</li>
           <li>Diploma masaje deportivo y relajante 2017</li>
         </ul>
       </div>
       <div>
         <h2>Habilidades</h2>
-        <ul>
+        <ul class="skills">
           <li><a href="#">Terapia Respiratoria</a></li>
-          <li><a href="#">Osteopatia deportiva</a></li>
+          <li><a href="#">Osteopatía deportiva</a></li>
           <li><a href="#">Rehabilitación cardíaca</a></li>
           <li><a href="#">Rehabilitación deglutiría</a></li>
           <li><a href="#">Electroterapia personalizada</a></li>
@@ -59,26 +63,26 @@
       <div>
         <h2>Medios de contacto</h2>
         <ul>
-          <li>WhatsApp 3314110512</li>
+          <li>WhatsApp: 3314110512</li>
           <li>Correo electrónico: luis.rojaspartida@gmail.com</li>
         </ul>
       </div>
       <div>
         <h3>Comentarios</h3>
         <form>
-          <label for="Ingresa tu nombre">Ingresa tu nombre</label>
-          <input type="text" />
+          <label for="nombre">Ingresa tu nombre</label>
+          <input type="text" id="nombre" name="nombre" />
           <br />
-          <label for="email">Ingresa tu correo electronico</label>
-          <input type="email" />
+          <label for="email">Ingresa tu correo electrónico</label>
+          <input type="email" id="email" name="email" />
           <br />
-          <label>Ingresa numero de contacto</label>
-          <input type="number" />
+          <label for="numero">Ingresa número de contacto</label>
+          <input type="number" id="numero" name="numero" />
           <br />
-          <label for="Ingresa tu mensaje">Deja tu mensaje</label>
-          <input type="text" />
+          <label for="mensaje">Deja tu mensaje</label>
+          <input type="text" id="mensaje" name="mensaje" />
           <br />
-          <button>Enviar datos</button>
+          <button type="submit">Enviar datos</button>
         </form>
       </div>
     </main>
